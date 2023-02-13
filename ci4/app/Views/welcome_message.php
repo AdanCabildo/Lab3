@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome to CodeIgniter 4!</title>
+    <title>LOCALHOST: Welcome to CodeIgniter 4!</title>
     <meta name="description" content="The small framework with powerful features">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/favicon.ico">
@@ -222,7 +222,7 @@
 
         <h1>Welcome to CodeIgniter <?= CodeIgniter\CodeIgniter::CI_VERSION ?></h1>
 
-        <h2>The small framework with powerful features</h2>
+        <h2>CODEIGNITER IN CABILDO LOCALHOST</h2>
 
     </div>
 
@@ -234,7 +234,7 @@
 
     <h1>About this page</h1>
 
-    <p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
+    <p>The page you are looking at is being generated dynamically by CodeIgniter at the localhost machine of Cabildo.</p>
 
     <p>If you would like to edit this page you will find it located at:</p>
 
