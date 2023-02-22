@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>My first Static Page huehue</title>
+    <title>CodeIgniter Tutorial</title>
 </head>
 <body>
 
