@@ -13,7 +13,7 @@ class News extends BaseController
         $model = model(NewsModel::class);
 
         $data = [
-            'news'  => $model->getNews(),
+            'alcabildo_news'  => $model->getNews(),
             'title' => 'News archive',
         ];
 
@@ -26,13 +26,13 @@ class News extends BaseController
     {
         $model = model(NewsModel::class);
 
-        $data['news'] = $model->getNews($slug);
+        $data['alcabildo_news'] = $model->getNews($slug);
 
-        if (empty($data['news'])) {
+        if (empty($data['alcabildo_news'])) {
             throw new PageNotFoundException('Cannot find the news item: ' . $slug);
         }
 
-        $data['title'] = $data['news']['title'];
+        $data['title'] = $data['alcabildo_news']['title'];
 
         return view('templates/header', $data)
             . view('news/view')
