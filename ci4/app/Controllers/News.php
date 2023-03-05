@@ -33,9 +33,9 @@ class News extends BaseController
 
         $data['title'] = $data['alcabildo_news']['title'];
 
-        return view('templates/header', $data)
+        return view('templates/Header', $data)
             . view('news/view', )
-            . view('templates/footer');
+            . view('templates/Footer');
     }
 
     public function create()
@@ -45,9 +45,9 @@ class News extends BaseController
         // Checks whether the form is submitted.
         if (! $this->request->is('post')) {
             // The form is not submitted, so returns the form.
-            return view('templates/header', ['title' => 'Create a news item'])
+            return view('templates/Header', ['title' => 'Create a news item'])
                 . view('news/create')
-                . view('templates/footer');
+                . view('templates/Footer');
         }
 
         $post = $this->request->getPost(['title', 'body']);
@@ -58,9 +58,9 @@ class News extends BaseController
             'body'  => 'required|max_length[5000]|min_length[10]',
         ])) {
             // The validation fails, so returns the form.
-            return view('templates/header', ['title' => 'Create a news item'])
+            return view('templates/Header', ['title' => 'Create a news item'])
                 . view('news/create')
-                . view('templates/footer');
+                . view('templates/Footer');
         }
 
         $model = model(NewsModel::class);
@@ -71,8 +71,8 @@ class News extends BaseController
             'body'  => $post['body'],
         ]);
 
-        return view('templates/header', ['title' => 'Create a news item'])
+        return view('templates/Header', ['title' => 'Create a news item'])
             . view('news/success')
-            . view('templates/footer');
+            . view('templates/Footer');
     }
 }
