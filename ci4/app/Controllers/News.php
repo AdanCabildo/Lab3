@@ -27,7 +27,7 @@ class News extends BaseController
 
         $data['alcabildo_news'] = $model->getNews($slug);
 
-        if (empty($data['alcabildo_news'])) {
+        if (empty($data['news'])) {
             throw new PageNotFoundException('Cannot find the news item: ' . $slug);
         }
 
