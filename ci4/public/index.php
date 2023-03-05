@@ -35,7 +35,7 @@ require FCPATH . '../app/Views/PersonalWebsite/index.php';
 $paths = new Config\Paths();
 
 // Location of the framework bootstrap file.
-require rtrim($paths->systemDirectory, '\\/assets ') . DIRECTORY_SEPARATOR . 'bootstrap.php';
+require rtrim($paths->systemDirectory, 'C:\wamp64\www\lab3\ci4\app\Views\PersonalWebsite\assets') . DIRECTORY_SEPARATOR . '/';
 
 // Load environment settings from .env files into $_SERVER and $_ENV
 require_once SYSTEMPATH . 'Config/DotEnv.php';
