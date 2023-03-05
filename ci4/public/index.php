@@ -32,7 +32,10 @@ chdir(FCPATH);
 require FCPATH . '../app/Views/PersonalWebsite/index.php';
 // ^^^ Change this line if you move your application folder
 
+$paths = new Config\Paths();
 
+// Location of the framework bootstrap file.
+require rtrim($paths->systemDirectory, '\\/ ') . DIRECTORY_SEPARATOR . 'bootstrap.php';
 
 // Load environment settings from .env files into $_SERVER and $_ENV
 require_once SYSTEMPATH . 'Config/DotEnv.php';
