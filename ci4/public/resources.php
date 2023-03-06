@@ -16,7 +16,7 @@
 <body>
     <div id="content-wrapper">
         <section id="home" class="full-height px-lg-5">
-            <a href="https://apcwebprog.csf.ph/~alcabildo2/Lab2/week9/PersonalWebsite/index.php"><h4 class="fw-light" data-aos="fade-up">Back</h4></a>
+            <a href="https://apcwebprog.csf.ph/~alcabildo2/lab3/ci4/public/index.php"><h4 class="fw-light" data-aos="fade-up">Back</h4></a>
             <div class="container">
                 <div class="row">
                     <h1 class="display-4 fw-bold" data-aos="fade-up">Resources</h1>
