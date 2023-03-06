@@ -53,7 +53,7 @@
                         <a class="nav-link" href="#contact">Contacts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://apcwebprog.csf.ph/~alcabildo2/Lab2/week9/PersonalWebsite/resources.php">Resources</a>
+                        <a class="nav-link" href="https://apcwebprog.csf.ph/~alcabildo2/lab3/ci4/public/resources.php">Resources</a>
                     </li>
                 </ul>
             </div>

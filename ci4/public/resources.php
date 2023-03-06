@@ -63,7 +63,7 @@
                             </li>
                         </ul>
                     </div>
-                    <a href="https://apcwebprog.csf.ph/~alcabildo2/Lab2/week9/PersonalWebsite/jsPlayground.php"><h4 class="fw-light" data-aos="fade-up" data-aos-delay="1400">Code Playground</h4></a>
+                    <a href="https://apcwebprog.csf.ph/~alcabildo2/lab3/ci4/public/jsPlayground.php"><h4 class="fw-light" data-aos="fade-up" data-aos-delay="1400">Code Playground</h4></a>
                 </div>
             </div>
 
